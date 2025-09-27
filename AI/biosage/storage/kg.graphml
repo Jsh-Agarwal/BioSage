@@ -1,0 +1,2080 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="edge" attr.name="source_doc" attr.type="string" />
+  <key id="d2" for="edge" attr.name="rel" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d0" for="node" attr.name="name" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="d0">Dengue</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="2">
+      <data key="d0">Malaria (P. falciparum/vivax)</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="3">
+      <data key="d0">Influenza</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="4">
+      <data key="d0">COVID-19</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="5">
+      <data key="d0">Tuberculosis</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="6">
+      <data key="d0">Enteric fever (Typhoid/Paratyphoid)</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="7">
+      <data key="d0">Community-acquired pneumonia</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="8">
+      <data key="d0">Urinary tract infection</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="9">
+      <data key="d0">Systemic lupus erythematosus</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="10">
+      <data key="d0">Rheumatoid arthritis</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="11">
+      <data key="d0">Axial spondyloarthritis</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="12">
+      <data key="d0">Sjögren's syndrome</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="13">
+      <data key="d0">ANCA-associated vasculitis</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="14">
+      <data key="d0">Inflammatory bowel disease (UC/Crohn’s)</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="15">
+      <data key="d0">Autoimmune thyroid disease</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="16">
+      <data key="d0">Adult-onset Still's disease</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="17">
+      <data key="d0">Fever</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="18">
+      <data key="d0">Rigors/chills</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="19">
+      <data key="d0">Myalgia</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="20">
+      <data key="d0">Headache</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="21">
+      <data key="d0">Arthralgia</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="22">
+      <data key="d0">Inflammatory polyarthritis</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="23">
+      <data key="d0">Rash-malar</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="24">
+      <data key="d0">Photosensitivity</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="25">
+      <data key="d0">Oral/nasal ulcers</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="26">
+      <data key="d0">Pleuritic chest pain</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="27">
+      <data key="d0">Dry cough</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="28">
+      <data key="d0">Productive cough</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="29">
+      <data key="d0">Dyspnea</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="30">
+      <data key="d0">Sore throat</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="31">
+      <data key="d0">Ageusia/anosmia</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="32">
+      <data key="d0">Petechiae/ecchymoses</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="33">
+      <data key="d0">Hematuria (symptom)</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="34">
+      <data key="d0">Flank pain</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="35">
+      <data key="d0">Night sweats</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="36">
+      <data key="d0">Unintentional weight loss</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="37">
+      <data key="d0">Inflammatory back pain</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="38">
+      <data key="d0">Chronic diarrhea</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="39">
+      <data key="d0">Dry eyes/mouth (sicca)</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="40">
+      <data key="d0">Salmon-colored rash (evanescent)</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="41">
+      <data key="d0">Thrombocytopenia</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="42">
+      <data key="d0">Leukopenia/lymphopenia</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="43">
+      <data key="d0">Leukocytosis (neutrophilic)</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="44">
+      <data key="d0">Transaminitis</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="45">
+      <data key="d0">Hyperferritinemia</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="46">
+      <data key="d0">Elevated CRP/ESR</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="47">
+      <data key="d0">Elevated D-dimer</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="48">
+      <data key="d0">Hyponatremia</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="49">
+      <data key="d0">Proteinuria</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="50">
+      <data key="d0">Hematuria (urinalysis)</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="51">
+      <data key="d0">RBC casts</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="52">
+      <data key="d0">RF positive</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="53">
+      <data key="d0">Anti-CCP positive</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="54">
+      <data key="d0">ANA positive</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="55">
+      <data key="d0">Anti-dsDNA high</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="56">
+      <data key="d0">Low complement (C3/C4)</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="57">
+      <data key="d0">HLA-B27 positive</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="58">
+      <data key="d0">ANCA positive (MPO/PR3)</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="59">
+      <data key="d0">Abnormal TSH</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="60">
+      <data key="d0">TPO antibodies positive</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="61">
+      <data key="d0">Cholestatic LFT pattern</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="62">
+      <data key="d0">Anemia of chronic disease</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="63">
+      <data key="d0">Dengue NS1/IgM serology</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="64">
+      <data key="d0">Dengue RT-PCR</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="65">
+      <data key="d0">Malaria smear/RDT</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="66">
+      <data key="d0">Influenza RT-PCR</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="67">
+      <data key="d0">SARS-CoV-2 PCR/Ag</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="68">
+      <data key="d0">Sputum AFB smear/PCR</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="69">
+      <data key="d0">TB IGRA/TST</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="70">
+      <data key="d0">Blood culture</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="71">
+      <data key="d0">Urine culture</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="72">
+      <data key="d0">Chest X-ray</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="73">
+      <data key="d0">CT chest</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="74">
+      <data key="d0">CRP</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="75">
+      <data key="d0">ESR</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="76">
+      <data key="d0">ANA by IFA</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="77">
+      <data key="d0">Anti-dsDNA</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="78">
+      <data key="d0">Complement (C3/C4)</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="79">
+      <data key="d0">Rheumatoid factor</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="80">
+      <data key="d0">Anti-CCP</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="81">
+      <data key="d0">HLA-B27 typing</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="82">
+      <data key="d0">ANCA (MPO/PR3)</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="83">
+      <data key="d0">Urinalysis</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="84">
+      <data key="d0">Ferritin</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="85">
+      <data key="d0">TSH</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="86">
+      <data key="d0">Anti-TPO antibodies</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="87">
+      <data key="d0">Prolonged morning stiffness</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="88">
+      <data key="d0">Acute coronary syndrome</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="89">
+      <data key="d0">Atrial fibrillation</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="90">
+      <data key="d0">Heart failure (HFrEF/HFpEF)</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="91">
+      <data key="d0">Aortic stenosis</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="92">
+      <data key="d0">Acute pericarditis</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="93">
+      <data key="d0">Ischemic stroke</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="94">
+      <data key="d0">Transient ischemic attack</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="95">
+      <data key="d0">Generalized seizure</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="96">
+      <data key="d0">Migraine with aura</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="97">
+      <data key="d0">Guillain-Barré syndrome</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="98">
+      <data key="d0">Lung cancer (NSCLC/SCLC)</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="99">
+      <data key="d0">Non-Hodgkin lymphoma</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="100">
+      <data key="d0">Acute myeloid leukemia</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="101">
+      <data key="d0">Opioid overdose</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="102">
+      <data key="d0">Organophosphate poisoning</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="103">
+      <data key="d0">Acetaminophen toxicity</data>
+      <data key="d1">Disease</data>
+    </node>
+    <node id="104">
+      <data key="d0">Chest pain (pressure-like)</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="105">
+      <data key="d0">Palpitations</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="106">
+      <data key="d0">Syncope</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="107">
+      <data key="d0">Orthopnea</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="108">
+      <data key="d0">Peripheral edema</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="109">
+      <data key="d0">Focal weakness</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="110">
+      <data key="d0">Aphasia</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="111">
+      <data key="d0">Visual field loss</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="112">
+      <data key="d0">Visual aura</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="113">
+      <data key="d0">Convulsion</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="114">
+      <data key="d0">Ascending weakness</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="115">
+      <data key="d0">Areflexia</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="116">
+      <data key="d0">Lymphadenopathy</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="117">
+      <data key="d0">Hemoptysis</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="118">
+      <data key="d0">Miosis (pinpoint pupils)</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="119">
+      <data key="d0">Respiratory depression</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="120">
+      <data key="d0">Excessive salivation</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="121">
+      <data key="d0">Bronchorrhea</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="122">
+      <data key="d0">Nausea/Vomiting</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="123">
+      <data key="d0">Right upper quadrant pain</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="124">
+      <data key="d0">Troponin elevated</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="125">
+      <data key="d0">BNP/NT-proBNP elevated</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="126">
+      <data key="d0">LDH elevated</data>
+      <data key="d1">Lab</data>
+    </node>
+    <node id="127">
+      <data key="d0">12-lead ECG</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="128">
+      <data key="d0">High-sensitivity troponin</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="129">
+      <data key="d0">Transthoracic echocardiogram</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="130">
+      <data key="d0">CT head (non-contrast)</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="131">
+      <data key="d0">MRI brain</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="132">
+      <data key="d0">Electroencephalogram (EEG)</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="133">
+      <data key="d0">CSF analysis</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="134">
+      <data key="d0">CBC with differential</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="135">
+      <data key="d0">Lymph node excisional biopsy</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="136">
+      <data key="d0">Serum acetaminophen level</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="137">
+      <data key="d0">Serum cholinesterase</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="138">
+      <data key="d0">Arterial blood gas</data>
+      <data key="d1">Test</data>
+    </node>
+    <node id="139">
+      <data key="d0">Fatigue</data>
+      <data key="d1">Symptom</data>
+    </node>
+    <node id="140">
+      <data key="d0">Acute hepatitis</data>
+      <data key="d1">Disease</data>
+    </node>
+    <edge source="1" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="1" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="1" target="19" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="1" target="19" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="1" target="20" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="1" target="20" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="1" target="32" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="1" target="32" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="1" target="41" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="1" target="41" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="1" target="42" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="1" target="42" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="1" target="63" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="1" target="63" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="1" target="64" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="1" target="64" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">guideline_dengue_001</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="1" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="1" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="1" target="9" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="1" target="9" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="2" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_malaria</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="2" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_malaria</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="2" target="18" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_malaria</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="2" target="18" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_malaria</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="2" target="62" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">who_malaria</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="2" target="62" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">who_malaria</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="2" target="65" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">who_malaria</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="2" target="65" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">who_malaria</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="2" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="2" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="2" target="16" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="2" target="16" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="3" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="3" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="3" target="19" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="3" target="19" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="3" target="30" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="3" target="30" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="3" target="27" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="3" target="27" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="3" target="66" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="3" target="66" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cdc_influenza</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="3" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="3" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="3" target="10" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="3" target="10" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="4" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="4" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="4" target="27" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="4" target="27" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="4" target="29" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="4" target="29" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="4" target="31" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="4" target="31" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="4" target="47" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="4" target="47" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="4" target="67" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="4" target="67" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="4" target="72" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="4" target="72" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">who_covid19</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="4" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="4" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="4" target="10" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="4" target="10" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="5" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="5" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="5" target="35" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="5" target="35" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="5" target="36" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="5" target="36" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="5" target="68" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="5" target="68" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="5" target="69" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="5" target="69" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="5" target="72" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="5" target="72" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="5" target="73" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="5" target="73" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">tb_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="5" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="5" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="5" target="13" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="5" target="13" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="5" target="9" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="5" target="9" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="5" target="98" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="6" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">enteric_fever</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="6" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">enteric_fever</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="6" target="20" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">enteric_fever</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="6" target="20" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">enteric_fever</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="6" target="42" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">enteric_fever</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="6" target="42" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">enteric_fever</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="6" target="70" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">enteric_fever</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="6" target="70" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">enteric_fever</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="6" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="6" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="6" target="14" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="6" target="14" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="7" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="7" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="7" target="28" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="7" target="28" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="7" target="26" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="7" target="26" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="7" target="72" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="7" target="72" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="7" target="70" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="7" target="70" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cap_guideline</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="7" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="7" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="7" target="13" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="7" target="13" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="7" target="92" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="8" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="8" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="8" target="33" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="8" target="33" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="8" target="34" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="8" target="34" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="8" target="43" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="8" target="43" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="8" target="83" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="8" target="83" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="8" target="71" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="8" target="71" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">uti_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="8" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="8" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="8" target="13" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="8" target="13" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="9" target="23" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="9" target="23" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="9" target="24" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="24" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="25" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="9" target="25" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="9" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="9" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="9" target="54" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="9" target="54" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="9" target="55" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="55" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="56" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="56" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="49" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="9" target="49" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="9" target="50" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="9" target="50" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="9" target="76" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="9" target="76" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="9" target="77" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="9" target="77" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="9" target="78" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="78" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="83" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="83" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">sle_review_2018</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="9" target="1" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="9" target="1" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="9" target="5" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="9" target="5" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="10" target="22" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="10" target="22" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="10" target="87" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="10" target="87" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="10" target="52" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="10" target="52" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="10" target="53" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="10" target="53" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="10" target="79" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="10" target="79" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="10" target="80" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="10" target="80" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="10" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="10" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">ra_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="10" target="3" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="10" target="3" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="10" target="4" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="10" target="4" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="11" target="37" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">axspa_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="11" target="37" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">axspa_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="11" target="57" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">axspa_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="11" target="57" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">axspa_guideline</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="11" target="81" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">axspa_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="11" target="81" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">axspa_guideline</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="12" target="39" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sjogren_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="12" target="39" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">sjogren_guideline</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="12" target="54" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sjogren_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="12" target="54" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sjogren_guideline</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="12" target="60" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sjogren_guideline</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="12" target="60" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">sjogren_guideline</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="13" target="33" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="13" target="33" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="13" target="58" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="13" target="58" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="13" target="51" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="13" target="51" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="13" target="82" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="13" target="82" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="13" target="83" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="13" target="83" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">aav_review</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="13" target="7" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="13" target="7" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="13" target="5" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="13" target="5" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="13" target="8" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="13" target="8" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="14" target="38" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">ibd_review</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="14" target="38" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">ibd_review</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="14" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">ibd_review</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="14" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">ibd_review</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="14" target="6" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="14" target="6" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="15" target="59" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">thyroid_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="15" target="59" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">thyroid_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="15" target="60" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">thyroid_review</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="15" target="60" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">thyroid_review</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="15" target="85" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">thyroid_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="15" target="85" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">thyroid_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="15" target="86" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">thyroid_review</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="15" target="86" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">thyroid_review</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="16" target="40" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">stills_review</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="16" target="40" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">stills_review</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="16" target="17" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">stills_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="16" target="17" id="1">
+      <data key="d2">has_symptom</data>
+      <data key="d3">stills_review</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="16" target="45" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">stills_review</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="16" target="45" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">stills_review</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="16" target="84" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">stills_review</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="16" target="84" id="1">
+      <data key="d2">suggests_test</data>
+      <data key="d3">stills_review</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="16" target="46" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="16" target="46" id="1">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">nonspecific_inflammation</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="16" target="2" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="16" target="2" id="1">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="88" target="104" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_acs</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="88" target="29" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_acs</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="88" target="124" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">cardio_acs</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="88" target="127" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cardio_acs</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="88" target="128" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cardio_acs</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="88" target="92" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="89" target="105" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_af</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="89" target="106" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_af</data>
+      <data key="d4">0.5</data>
+    </edge>
+    <edge source="89" target="127" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cardio_af</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="90" target="29" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_hf</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="90" target="107" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_hf</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="90" target="108" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_hf</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="90" target="125" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">cardio_hf</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="90" target="129" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cardio_hf</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="90" target="72" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cardio_hf</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="91" target="106" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_as</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="91" target="29" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_as</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="91" target="129" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cardio_as</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="92" target="26" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">cardio_pericard</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="92" target="127" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cardio_pericard</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="92" target="129" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">cardio_pericard</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="92" target="7" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="92" target="88" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="93" target="109" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_stroke</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="93" target="110" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_stroke</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="93" target="111" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_stroke</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="93" target="130" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">neuro_stroke</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="93" target="131" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">neuro_stroke</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="93" target="96" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="93" target="101" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="94" target="109" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_tia</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="94" target="110" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_tia</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="94" target="131" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">neuro_tia</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="94" target="95" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="95" target="113" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_seizure</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="95" target="132" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">neuro_seizure</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="95" target="94" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="96" target="20" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_migraine</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="96" target="112" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_migraine</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="96" target="130" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">neuro_migraine</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="96" target="93" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="97" target="114" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_gbs</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="97" target="115" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">neuro_gbs</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="97" target="133" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">neuro_gbs</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="98" target="27" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">onco_lung</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="98" target="117" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">onco_lung</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="98" target="36" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">onco_lung</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="98" target="73" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">onco_lung</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="98" target="135" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">onco_lung</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="98" target="5" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="99" target="116" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">onco_lymphoma</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="99" target="35" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">onco_lymphoma</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="99" target="36" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">onco_lymphoma</data>
+      <data key="d4">0.7</data>
+    </edge>
+    <edge source="99" target="126" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">onco_lymphoma</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="99" target="135" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">onco_lymphoma</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="100" target="139" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">onco_aml</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="100" target="62" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">onco_aml</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="100" target="134" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">onco_aml</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="101" target="118" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">toxo_opioid</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="101" target="119" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">toxo_opioid</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="101" target="138" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">toxo_opioid</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="101" target="93" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="102" target="118" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">toxo_op</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="102" target="120" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">toxo_op</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="102" target="121" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">toxo_op</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="102" target="137" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">toxo_op</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="103" target="122" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">toxo_apap</data>
+      <data key="d4">0.8</data>
+    </edge>
+    <edge source="103" target="123" id="0">
+      <data key="d2">has_symptom</data>
+      <data key="d3">toxo_apap</data>
+      <data key="d4">0.6</data>
+    </edge>
+    <edge source="103" target="44" id="0">
+      <data key="d2">associated_with_lab_pattern</data>
+      <data key="d3">toxo_apap</data>
+      <data key="d4">0.9</data>
+    </edge>
+    <edge source="103" target="136" id="0">
+      <data key="d2">suggests_test</data>
+      <data key="d3">toxo_apap</data>
+      <data key="d4">1.0</data>
+    </edge>
+    <edge source="103" target="140" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+    <edge source="140" target="103" id="0">
+      <data key="d2">differential_with</data>
+      <data key="d3">ddx_links_cross</data>
+      <data key="d4">0.4</data>
+    </edge>
+  </graph>
+</graphml>

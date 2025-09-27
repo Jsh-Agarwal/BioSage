@@ -1,0 +1,20 @@
+{
+  "case_id": "fever_case_001",
+  "intake": {
+    "demographics": {"age": 35, "gender": "female"},
+    "symptoms": ["high fever", "chills", "headache", "fatigue"],
+    "duration_days": 3,
+    "vitals": {"temperature": 102.5},
+    "initial_labs": {"WBC": 12.5, "CRP": 45},
+    "exposures": ["recent travel to tropical area"],
+    "travel": ["Thailand"]
+  },
+  "expected": {
+    "infectious_candidates": ["Dengue fever", "Malaria", "Typhoid fever"],
+    "autoimmune_candidates": ["Systemic lupus erythematosus", "Rheumatoid arthritis"],
+    "fused_differential": ["Dengue fever", "Malaria", "Viral infection"],
+    "next_test": "Dengue NS1 antigen",
+    "citations_required": true,
+    "kg_paths_required": true
+  }
+}

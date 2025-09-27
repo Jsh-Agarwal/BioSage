@@ -1,0 +1,97 @@
+basic patient info can go to the model
+{
+  "name": "string",
+  "dob": "string",
+  "gender": "male",
+  "mrn": "string",
+  "address": "string",
+  "phone": "string",
+  "email": "user@example.com",
+  "emergency_contact": "string",
+  "insurance": "string",
+  "primary_care": "string"
+}
+
+Case details
+{
+  "case_id": "string",
+  "patient_id": "string",
+  "chief_complaint": "string",
+  "admission_date": "string",
+  "status": "active",
+  "current_dx": "string",
+  "assigned_team": [],
+  "urgency": "medium",
+  "confidence": 100,
+  "top_dx": "string"
+}
+
+Must go to the AI model
+Vitals 
+{
+  "temperature": "string",
+  "bp": "string",
+  "hr": "string",
+  "rr": "string",
+  "o2sat": "string",
+  "weight": "string"
+}
+
+Tests/lab
+{
+  "test": "string",
+  "value": "string",
+  "reference": "string",
+  "status": "pending",
+  "date": "string"
+}
+
+medical history
+{
+  "_id": "string",
+  "patient_id": "string",
+  "allergies": [
+    {
+      "allergen": "string",
+      "reaction": "string",
+      "severity": "mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "string",
+      "dose": "string",
+      "indication": "string",
+      "started": "string",
+      "status": "active"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "string",
+      "diagnosed": "string",
+      "status": "active"
+    }
+  ],
+  "surgeries": [
+    {
+      "procedure": "string",
+      "date": "string",
+      "complications": "string"
+    }
+  ]
+}
+
+Social History
+{
+  "_id": "string",
+  "patient_id": "string",
+  "occupation": "string",
+  "smoking": "string",
+  "alcohol": "string",
+  "drugs": "string",
+  "exercise": "string",
+  "diet": "string",
+  "travel": "string",
+  "exposure": "string"
+}

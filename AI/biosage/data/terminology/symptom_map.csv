@@ -1,0 +1,38 @@
+term,canonical,code
+fever,fever,SNOMED:386661006
+chills,chills,SNOMED:43724002
+myalgias,myalgia,SNOMED:68962001
+myalgia,myalgia,SNOMED:68962001
+headache,headache,SNOMED:25064002
+rash-malar,rash-malar,SNOMED:40275004
+pleuritic chest pain,Pleuritic chest pain,
+chest pain,Chest pain (pressure-like),
+chest pressure,Chest pain (pressure-like),
+substernal chest pain,Chest pain (pressure-like),
+palpitations,Palpitations,
+syncope,Syncope,
+orthopnea,Orthopnea,
+orthopnoea,Orthopnea,
+leg swelling,Peripheral edema,
+edema,Peripheral edema,
+shortness of breath,Dyspnea,
+sob,Dyspnea,
+focal weakness,Focal weakness,
+aphasia,Aphasia,
+visual field loss,Visual field loss,
+visual aura,Visual aura,
+seizure,Convulsion,
+convulsion,Convulsion,
+ascending weakness,Ascending weakness,
+areflexia,Areflexia,
+lymphadenopathy,Lymphadenopathy,
+hemoptysis,Hemoptysis,
+miosis,Miosis (pinpoint pupils),
+pinpoint pupils,Miosis (pinpoint pupils),
+respiratory depression,Respiratory depression,
+excessive salivation,Excessive salivation,
+bronchorrhea,Bronchorrhea,
+nausea,Nausea/Vomiting,
+vomiting,Nausea/Vomiting,
+ruq pain,Right upper quadrant pain,
+right upper quadrant pain,Right upper quadrant pain,

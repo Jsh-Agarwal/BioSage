@@ -1,0 +1,20 @@
+{
+  "case_id": "fever_case_003",
+  "intake": {
+    "demographics": {"age": 45, "gender": "female"},
+    "symptoms": ["low-grade fever", "joint pain", "rash", "fatigue"],
+    "duration_days": 14,
+    "vitals": {"temperature": 99.8},
+    "initial_labs": {"ANA": "positive", "RF": "positive"},
+    "exposures": [],
+    "travel": []
+  },
+  "expected": {
+    "infectious_candidates": ["Lyme disease", "Viral arthritis"],
+    "autoimmune_candidates": ["Rheumatoid arthritis", "Lupus", "Sjögren's syndrome"],
+    "fused_differential": ["Rheumatoid arthritis", "Lupus", "Autoimmune disease"],
+    "next_test": "Anti-CCP antibody",
+    "citations_required": true,
+    "kg_paths_required": true
+  }
+}

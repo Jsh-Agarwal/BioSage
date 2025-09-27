@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  biosage-api:
+    build: .
+    ports:
+      - "8009:8009"
+    volumes:
+      - ./biosage:/app/biosage
+    environment:
+      - PYTHONPATH=/app
+      - OPENAI_API_KEY=YourAPIKeyHere
+      - APP_ENV=dev
+      - MONGO_URI=mongodb+srv://jshagarwal15_db_user:FrjpC3SJ4CSSVNws@cluster0.h0b2icg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - MONGO_DB=biosage
+      - MONGO_COLL=AiCases
+      - MONGO_RESULTS_URI=mongodb+srv://jshagarwal15_db_user:FrjpC3SJ4CSSVNws@cluster0.h0b2icg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - MONGO_RESULTS_DB=biosage
+      - MONGO_RESULTS_COLL=AiDiagnosedResults
+      - MONGO_STORE_ORIGINAL_ID=true
+      - OPENAI_REAS_MODEL=gpt-4o
+      - OPENAI_EMBED_MODEL=text-embedding-3-large
+      - REAS_PROVIDER=openai
+      - EMBED_PROVIDER=openai
+      - AZURE_OPENAI_ENDPOINT=
+      - AZURE_OPENAI_KEY=
+      - AZURE_REAS_DEPLOYMENT=gpt-4o
+      - AZURE_EMBED_DEPLOYMENT=text-embedding-3-large
+      - VLLM_BASE_URL=http://localhost:8000/v1
+      - VLLM_REAS_MODEL=microsoft/BioGPT-Large
+      - VLLM_EMBED_MODEL=microsoft/BioGPT-Large
+      - CORS_ORIGINS=*
+    command: uvicorn biosage.app.main:app --host 0.0.0.0 --port 8009

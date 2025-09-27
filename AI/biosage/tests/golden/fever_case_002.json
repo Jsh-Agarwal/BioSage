@@ -1,0 +1,20 @@
+{
+  "case_id": "fever_case_002",
+  "intake": {
+    "demographics": {"age": 28, "gender": "male"},
+    "symptoms": ["fever", "cough", "shortness of breath", "chest pain"],
+    "duration_days": 5,
+    "vitals": {"temperature": 101.2, "oxygen_sat": 94},
+    "initial_labs": {"WBC": 8.2, "ESR": 25},
+    "exposures": ["close contact with sick person"],
+    "travel": []
+  },
+  "expected": {
+    "infectious_candidates": ["Community-acquired pneumonia", "COVID-19", "Influenza"],
+    "autoimmune_candidates": ["Sarcoidosis", "Vasculitis"],
+    "fused_differential": ["Pneumonia", "COVID-19", "Respiratory infection"],
+    "next_test": "Chest X-ray",
+    "citations_required": true,
+    "kg_paths_required": true
+  }
+}

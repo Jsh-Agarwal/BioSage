@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* BioSage Design System - Ocean Depths Theme
+   Clinical calm with deep teal primary, bright ocean accents, and golden highlights
+   All colors in HSL format for maximum compatibility
+*/
+
+@layer base {
+  :root {
+    /* Ocean Depths Color Palette */
+    --background: 198 100% 98%;
+    --foreground: 200 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 25% 15%;
+
+    /* Primary: Deep Teal #0B6B8A */
+    --primary: 194 80% 29%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 194 80% 35%;
+    --primary-active: 194 80% 25%;
+
+    /* Accent: Bright Ocean #00B4D8 */
+    --accent: 194 100% 42%;
+    --accent-foreground: 0 0% 98%;
+    --accent-hover: 194 100% 48%;
+    --accent-muted: 194 60% 92%;
+
+    /* Warm Highlight: Golden Cue #FFB703 */
+    --warning: 44 100% 51%;
+    --warning-foreground: 200 25% 15%;
+    --warning-muted: 44 100% 95%;
+
+    /* Secondary & Muted */
+    --secondary: 198 25% 95%;
+    --secondary-foreground: 200 25% 15%;
+    
+    --muted: 198 15% 96%;
+    --muted-foreground: 200 15% 45%;
+
+    /* Status Colors */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --destructive-muted: 0 84% 96%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+    --success-muted: 142 76% 95%;
+
+    --info: 194 100% 42%;
+    --info-foreground: 0 0% 98%;
+    --info-muted: 194 100% 96%;
+
+    /* Clinical-specific colors */
+    --critical: 0 84% 60%;
+    --urgent: 25 95% 53%;
+    --caution: 44 100% 51%;
+    --stable: 142 76% 36%;
+    --confidence-high: 142 76% 36%;
+    --confidence-medium: 44 100% 51%;
+    --confidence-low: 25 95% 53%;
+
+    /* UI Elements */
+    --border: 198 20% 88%;
+    --input: 198 20% 88%;
+    --ring: 194 80% 29%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-warm: linear-gradient(135deg, hsl(var(--warning)), hsl(var(--accent)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(var(--primary) / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(var(--primary) / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(var(--primary) / 0.1);
+    --shadow-xl: 0 20px 25px -5px hsl(var(--primary) / 0.1);
+
+    /* Animations */
+    --transition-base: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "fever_case_004",
+  "intake": {
+    "demographics": {"age": 62, "gender": "male"},
+    "symptoms": ["fever", "confusion", "neck stiffness", "photophobia"],
+    "duration_days": 2,
+    "vitals": {"temperature": 103.1},
+    "initial_labs": {"CSF WBC": 500},
+    "exposures": [],
+    "travel": []
+  },
+  "expected": {
+    "infectious_candidates": ["Bacterial meningitis", "Viral meningitis", "Tuberculous meningitis"],
+    "autoimmune_candidates": ["Autoimmune encephalitis"],
+    "fused_differential": ["Bacterial meningitis", "Meningitis", "CNS infection"],
+    "next_test": "CSF culture",
+    "citations_required": true,
+    "kg_paths_required": true
+  }
+}

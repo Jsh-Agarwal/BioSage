@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+faiss-cpu
+networkx
+rank-bm25
+pandas
+python-dotenv
+openai
+scikit-learn
+scipy
+pytest
+pytest-asyncio
+python-dateutil
+pymongo[srv]

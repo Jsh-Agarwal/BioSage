@@ -1,0 +1,20 @@
+{
+  "case_id": "fever_case_005",
+  "intake": {
+    "demographics": {"age": 19, "gender": "female"},
+    "symptoms": ["fever", "sore throat", "swollen glands", "rash"],
+    "duration_days": 4,
+    "vitals": {"temperature": 100.9},
+    "initial_labs": {"Mono spot": "positive"},
+    "exposures": ["kissing"],
+    "travel": []
+  },
+  "expected": {
+    "infectious_candidates": ["Infectious mononucleosis", "Streptococcal pharyngitis", "HIV"],
+    "autoimmune_candidates": ["Still's disease"],
+    "fused_differential": ["Infectious mononucleosis", "Mono", "Viral infection"],
+    "next_test": "EBV IgM",
+    "citations_required": true,
+    "kg_paths_required": true
+  }
+}
